@@ -1,6 +1,12 @@
 import React from "react";
 
-import { isDarwin, isFirefox, isWindows } from "@excalidraw/common";
+import {
+  addEventListener,
+  EVENT,
+  isDarwin,
+  isFirefox,
+  isWindows,
+} from "@excalidraw/common";
 
 import { KEYS } from "@excalidraw/common";
 
@@ -60,10 +66,10 @@ const Header = () => (
 );
 
 const Section = (props: { title: string; children: React.ReactNode }) => (
-  <>
+  <div className="HelpDialog__section">
     <h3>{props.title}</h3>
     <div className="HelpDialog__islands-container">{props.children}</div>
-  </>
+  </div>
 );
 
 const ShortcutIsland = (props: {
@@ -127,11 +133,85 @@ const ShortcutKey = (props: { children: React.ReactNode }) => (
 
 export const HelpDialog = ({ onClose }: { onClose?: () => void }) => {
   const actionManager = useExcalidrawActionManager();
+  const [query, setQuery] = React.useState("");
+  const contentRef = React.useRef<HTMLDivElement | null>(null);
+  const searchInputRef = React.useRef<HTMLInputElement | null>(null);
+
   const handleClose = React.useCallback(() => {
     if (onClose) {
       onClose();
     }
   }, [onClose]);
+
+  // While the help dialog is open, Ctrl/Cmd+F should search the shortcuts
+  // listed here rather than toggling the canvas search menu or opening the
+  // browser's find bar (#9276)
+  React.useEffect(() => {
+    return addEventListener(
+      document,
+      EVENT.KEYDOWN,
+      ((event: KeyboardEvent) => {
+        if (event[KEYS.CTRL_OR_CMD] && event.key === KEYS.F) {
+          event.preventDefault();
+          event.stopPropagation();
+          setQuery("");
+          searchInputRef.current?.focus();
+          searchInputRef.current?.select();
+        }
+      }) as EventListener,
+      { capture: true },
+    );
+  }, []);
+
+  // Filter the rendered shortcut list by the search query. We hide nodes
+  // imperatively (instead of unmounting) so that the dialog content stays
+  // stable while typing.
+  React.useEffect(() => {
+    const root = contentRef.current;
+    if (!root) {
+      return;
+    }
+
+    const normalizedQuery = query.trim().toLowerCase();
+    root.classList.toggle("HelpDialog__content--searching", !!normalizedQuery);
+
+    let visibleShortcuts = 0;
+
+    root
+      .querySelectorAll<HTMLElement>(".HelpDialog__shortcut")
+      .forEach((shortcut) => {
+        const label = shortcut.firstElementChild?.textContent ?? "";
+        const matches =
+          !normalizedQuery || label.toLowerCase().includes(normalizedQuery);
+        shortcut.hidden = !matches;
+        if (matches) {
+          visibleShortcuts++;
+        }
+      });
+
+    root
+      .querySelectorAll<HTMLElement>(".HelpDialog__island")
+      .forEach((island) => {
+        island.hidden = !island.querySelector(
+          ".HelpDialog__shortcut:not([hidden])",
+        );
+      });
+
+    root
+      .querySelectorAll<HTMLElement>(".HelpDialog__section")
+      .forEach((section) => {
+        section.hidden = !section.querySelector(
+          ".HelpDialog__island:not([hidden])",
+        );
+      });
+
+    const noResults = root.querySelector<HTMLElement>(
+      ".HelpDialog__no-results",
+    );
+    if (noResults) {
+      noResults.hidden = !normalizedQuery || visibleShortcuts !== 0;
+    }
+  }, [query]);
 
   return (
     <>
@@ -140,8 +220,17 @@ export const HelpDialog = ({ onClose }: { onClose?: () => void }) => {
         title={t("helpDialog.title")}
         className={"HelpDialog"}
       >
-        <Header />
-        <Section title={t("helpDialog.shortcuts")}>
+        <div ref={contentRef} className="HelpDialog__content">
+          <Header />
+          <input
+            ref={searchInputRef}
+            className="HelpDialog__search-input"
+            type="text"
+            value={query}
+            placeholder={t("helpDialog.searchShortcuts")}
+            onChange={(event) => setQuery(event.target.value)}
+          />
+          <Section title={t("helpDialog.shortcuts")}>
           <ShortcutIsland
             className="HelpDialog__island--tools"
             caption={t("helpDialog.tools")}
@@ -519,7 +608,11 @@ export const HelpDialog = ({ onClose }: { onClose?: () => void }) => {
             />
           </ShortcutIsland>
         </Section>
-      </Dialog>
-    </>
-  );
+        <div className="HelpDialog__no-results" hidden>
+          {t("helpDialog.noShortcutResults")}
+        </div>
+      </div>
+    </Dialog>
+  </>
+);
 };
