@@ -13,7 +13,7 @@ import { KEYS } from "@excalidraw/common";
 import { actionToggleTheme } from "../actions";
 import { getShortcutFromShortcutName } from "../actions/shortcuts";
 import { probablySupportsClipboardBlob } from "../clipboard";
-import { t } from "../i18n";
+import { t, useI18n } from "../i18n";
 import { getShortcutKey } from "../shortcut";
 
 import { useExcalidrawActionManager } from "./App";
@@ -133,6 +133,7 @@ const ShortcutKey = (props: { children: React.ReactNode }) => (
 
 export const HelpDialog = ({ onClose }: { onClose?: () => void }) => {
   const actionManager = useExcalidrawActionManager();
+  const { t } = useI18n();
   const [query, setQuery] = React.useState("");
   const contentRef = React.useRef<HTMLDivElement | null>(null);
   const searchInputRef = React.useRef<HTMLInputElement | null>(null);
