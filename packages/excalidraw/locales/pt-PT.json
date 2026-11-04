@@ -473,7 +473,9 @@
     "movePageUpDown": "Mover página para cima / baixo",
     "movePageLeftRight": "Mover página para esquerda / direita",
     "cropStart": "Recortar imagem",
-    "cropFinish": "Finalizar recorte da imagem"
+    "cropFinish": "Finalizar recorte da imagem",
+    "searchShortcuts": "Pesquisar atalhos...",
+    "noShortcutResults": "Nenhum atalho correspondente encontrado"
   },
   "clearCanvasDialog": {
     "title": "Apagar área de desenho"
