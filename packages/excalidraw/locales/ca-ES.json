@@ -473,7 +473,9 @@
     "movePageUpDown": "Mou la pàgina cap amunt/a baix",
     "movePageLeftRight": "Mou la pàgina cap a l'esquerra/dreta",
     "cropStart": "Retallar l'imatge",
-    "cropFinish": "Finalitza el retall d'imatge"
+    "cropFinish": "Finalitza el retall d'imatge",
+    "searchShortcuts": "Cerca dreceres...",
+    "noShortcutResults": "No s'ha trobat cap drecera coincident"
   },
   "clearCanvasDialog": {
     "title": "Neteja el llenç"

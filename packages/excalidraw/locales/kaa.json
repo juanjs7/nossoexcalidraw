@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Qısqa jollardı izlew...",
+    "noShortcutResults": "Sáykes qısqa jol tabılmadı"
   },
   "clearCanvasDialog": {
     "title": ""

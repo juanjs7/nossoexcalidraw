@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Tezkor tugmalarni qidirish...",
+    "noShortcutResults": "Mos tezkor tugmalar topilmadi"
   },
   "clearCanvasDialog": {
     "title": ""

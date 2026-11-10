@@ -473,7 +473,9 @@
     "movePageUpDown": "පිටුව ඉහළට/පහළට ගෙනයාම",
     "movePageLeftRight": "පිටුව වමට/දකුණට ගෙනයාම",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "කෙටිමං සොයන්න...",
+    "noShortcutResults": "ගැළපෙන කෙටිමං හමු නොවීය"
   },
   "clearCanvasDialog": {
     "title": "කැන්වසය පිරිසිදු කිරීමේ සංවාදය"
