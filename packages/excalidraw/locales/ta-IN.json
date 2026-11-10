@@ -473,9 +473,7 @@
     "movePageUpDown": "மேலே/கீழே நகர்த்தவும்",
     "movePageLeftRight": "இடது/வலது பக்கம் நகர்த்தவும்",
     "cropStart": "படத்தை வெட்டு",
-    "cropFinish": "முடி",
-    "searchShortcuts": "குறுக்குவழிகளைத் தேடு...",
-    "noShortcutResults": "பொருந்தும் குறுக்குவழிகள் எதுவும் இல்லை"
+    "cropFinish": "முடி"
   },
   "clearCanvasDialog": {
     "title": "கித்தானைத் துடை"

@@ -473,9 +473,7 @@
     "movePageUpDown": "Mugitu orria gora/behera",
     "movePageLeftRight": "Mugitu orria ezker/eskuin",
     "cropStart": "Moztu irudia",
-    "cropFinish": "Amaitu irudia mozten",
-    "searchShortcuts": "Bilatu lasterbideak...",
-    "noShortcutResults": "Ez da bat datorren lasterbiderik aurkitu"
+    "cropFinish": "Amaitu irudia mozten"
   },
   "clearCanvasDialog": {
     "title": "Garbitu oihala"

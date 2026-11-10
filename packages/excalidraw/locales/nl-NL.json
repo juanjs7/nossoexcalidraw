@@ -473,9 +473,7 @@
     "movePageUpDown": "Pagina omhoog/omlaag",
     "movePageLeftRight": "Verplaats pagina links/rechts",
     "cropStart": "Afbeelding bijsnijden",
-    "cropFinish": "Afbeelding bijsnijden voltooien",
-    "searchShortcuts": "Sneltoetsen zoeken...",
-    "noShortcutResults": "Geen overeenkomende sneltoetsen gevonden"
+    "cropFinish": "Afbeelding bijsnijden voltooien"
   },
   "clearCanvasDialog": {
     "title": "Wis canvas"

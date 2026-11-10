@@ -473,9 +473,7 @@
     "movePageUpDown": "Flytta sida upp/ner",
     "movePageLeftRight": "Flytta sida vänster/höger",
     "cropStart": "Beskär bild",
-    "cropFinish": "Slutför bildbeskärningen",
-    "searchShortcuts": "Sök kortkommandon...",
-    "noShortcutResults": "Inga matchande kortkommandon hittades"
+    "cropFinish": "Slutför bildbeskärningen"
   },
   "clearCanvasDialog": {
     "title": "Rensa canvas"

@@ -473,9 +473,7 @@
     "movePageUpDown": "Mover páxina cara enriba/abaixo",
     "movePageLeftRight": "Mover páxina cara a esquerda/dereita",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "Buscar atallos...",
-    "noShortcutResults": "Non se atoparon atallos coincidentes"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "Limpar lenzo"

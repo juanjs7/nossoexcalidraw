@@ -473,9 +473,7 @@
     "movePageUpDown": "페이지 움직이기 위/아래",
     "movePageLeftRight": "페이지 움직이기 좌/우",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "단축키 검색...",
-    "noShortcutResults": "일치하는 단축키가 없습니다"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "캔버스 지우기"

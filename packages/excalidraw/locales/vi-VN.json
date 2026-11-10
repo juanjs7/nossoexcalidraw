@@ -473,9 +473,7 @@
     "movePageUpDown": "Chuyển trang lên/xuống",
     "movePageLeftRight": "Chuyển trang trái/phải",
     "cropStart": "Cắt ảnh",
-    "cropFinish": "",
-    "searchShortcuts": "Tìm phím tắt...",
-    "noShortcutResults": "Không tìm thấy phím tắt phù hợp"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "Dọn canvas"

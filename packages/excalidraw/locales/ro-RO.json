@@ -473,9 +473,7 @@
     "movePageUpDown": "Deplasare pagină sus/jos",
     "movePageLeftRight": "Deplasare pagină stânga/dreapta",
     "cropStart": "Decupare imagine",
-    "cropFinish": "Finalizare decupare imagine",
-    "searchShortcuts": "Caută comenzi rapide...",
-    "noShortcutResults": "Nu s-au găsit comenzi rapide potrivite"
+    "cropFinish": "Finalizare decupare imagine"
   },
   "clearCanvasDialog": {
     "title": "Ștergere pânză"

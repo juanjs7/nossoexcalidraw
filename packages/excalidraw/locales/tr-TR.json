@@ -473,9 +473,7 @@
     "movePageUpDown": "Sayfayı yukarı/aşağı kaydır",
     "movePageLeftRight": "Sayfayı sola/sağa kaydır",
     "cropStart": "Görseli kırp",
-    "cropFinish": "Görsel kırpmayı tamamla",
-    "searchShortcuts": "Kısayollarda ara...",
-    "noShortcutResults": "Eşleşen kısayol bulunamadı"
+    "cropFinish": "Görsel kırpmayı tamamla"
   },
   "clearCanvasDialog": {
     "title": "Tuvali temizle"

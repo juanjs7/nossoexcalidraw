@@ -473,9 +473,7 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "Søk i snarvegar...",
-    "noShortcutResults": "Fann ingen samsvarande snarvegar"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "Tøm lerretet"

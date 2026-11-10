@@ -473,9 +473,7 @@
     "movePageUpDown": "حرکت صفحه به بالا/پایین",
     "movePageLeftRight": "حرکت صفحه به چپ/راست",
     "cropStart": "برش تصویر",
-    "cropFinish": "پایان برش تصویر",
-    "searchShortcuts": "جستجوی میانبرها...",
-    "noShortcutResults": "هیچ میانبر منطبقی یافت نشد"
+    "cropFinish": "پایان برش تصویر"
   },
   "clearCanvasDialog": {
     "title": "پاک کردن بوم"

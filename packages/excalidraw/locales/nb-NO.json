@@ -473,9 +473,7 @@
     "movePageUpDown": "Flytt side opp/ned",
     "movePageLeftRight": "Flytt siden til venstre/høyre",
     "cropStart": "Beskjær bilde",
-    "cropFinish": "Fullfør bildebeskjæring",
-    "searchShortcuts": "Søk i snarveier...",
-    "noShortcutResults": "Fant ingen samsvarende snarveier"
+    "cropFinish": "Fullfør bildebeskjæring"
   },
   "clearCanvasDialog": {
     "title": "Tøm lerret"

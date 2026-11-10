@@ -473,9 +473,7 @@
     "movePageUpDown": "Seite nach oben/unten verschieben",
     "movePageLeftRight": "Seite nach links/rechts verschieben",
     "cropStart": "Bild zuschneiden",
-    "cropFinish": "Zuschneiden des Bildes beenden",
-    "searchShortcuts": "Tastenkürzel suchen...",
-    "noShortcutResults": "Keine passenden Tastenkürzel gefunden"
+    "cropFinish": "Zuschneiden des Bildes beenden"
   },
   "clearCanvasDialog": {
     "title": "Zeichenfläche löschen"

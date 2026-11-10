@@ -473,9 +473,7 @@
     "movePageUpDown": "Pārvietot lapu augšup/lejup",
     "movePageLeftRight": "Pārvietot lapu pa labi/kreisi",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "Meklēt īsinājumtaustiņus...",
-    "noShortcutResults": "Atbilstoši īsinājumtaustiņi netika atrasti"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "Notīrīt tāfeli"

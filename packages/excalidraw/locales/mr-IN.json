@@ -473,9 +473,7 @@
     "movePageUpDown": "पान वर/खाली करा",
     "movePageLeftRight": "पान डावी/उजवी कडे करा",
     "cropStart": "प्रतिमा ह्याची कापणी करा",
-    "cropFinish": "प्रतिमा ह्याची कापणी संपूर्ण करा",
-    "searchShortcuts": "शॉर्टकट शोधा...",
-    "noShortcutResults": "जुळणारे शॉर्टकट सापडले नाहीत"
+    "cropFinish": "प्रतिमा ह्याची कापणी संपूर्ण करा"
   },
   "clearCanvasDialog": {
     "title": "पटल स्वच्छ करा"

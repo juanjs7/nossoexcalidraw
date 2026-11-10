@@ -473,9 +473,7 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "Qısayollarda axtar...",
-    "noShortcutResults": "Uyğun qısayol tapılmadı"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": ""

@@ -473,9 +473,7 @@
     "movePageUpDown": "Mover página hacia arriba/abajo",
     "movePageLeftRight": "Mover página hacia la izquierda/derecha",
     "cropStart": "Recortar imagen",
-    "cropFinish": "Terminar recorte de imagen",
-    "searchShortcuts": "Buscar atajos...",
-    "noShortcutResults": "No se encontraron atajos coincidentes"
+    "cropFinish": "Terminar recorte de imagen"
   },
   "clearCanvasDialog": {
     "title": "Borrar lienzo"

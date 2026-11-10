@@ -473,9 +473,7 @@
     "movePageUpDown": "Przesuń stronę w górę/w dół",
     "movePageLeftRight": "Przenieś stronę w lewo/prawo",
     "cropStart": "Przytnij obraz",
-    "cropFinish": "Zakończ przycinanie obrazu",
-    "searchShortcuts": "Szukaj skrótów...",
-    "noShortcutResults": "Nie znaleziono pasujących skrótów"
+    "cropFinish": "Zakończ przycinanie obrazu"
   },
   "clearCanvasDialog": {
     "title": "Wyczyść płótno"

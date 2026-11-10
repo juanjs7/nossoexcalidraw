@@ -473,9 +473,7 @@
     "movePageUpDown": "لاپەڕەکە بجوڵێنە بۆ سەرەوە/خوارەوە",
     "movePageLeftRight": "لاپەڕەکە بجوڵێنە بۆ چەپ/ڕاست",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "گەڕان بە دوای قەدبڕەکاندا...",
-    "noShortcutResults": "هیچ قەدبڕێکی گونجاو نەدۆزرایەوە"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "تابلۆکە خاوێن بکەرەوە"

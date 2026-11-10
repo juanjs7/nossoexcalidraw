@@ -473,9 +473,7 @@
     "movePageUpDown": "ផ្លាស់ទីទំព័រឡើងលើ/ចុះក្រោម",
     "movePageLeftRight": "ផ្លាស់ទីទំព័រទៅឆ្វេង/ស្ដាំ",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "ស្វែងរកផ្លូវកាត់...",
-    "noShortcutResults": "រកមិនឃើញផ្លូវកាត់ដែលត្រូវគ្នា"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": "សម្អាតបាវ"

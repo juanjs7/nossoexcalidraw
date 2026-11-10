@@ -473,9 +473,7 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": "",
-    "searchShortcuts": "Søg i genveje...",
-    "noShortcutResults": "Ingen matchende genveje fundet"
+    "cropFinish": ""
   },
   "clearCanvasDialog": {
     "title": ""
