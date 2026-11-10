@@ -473,7 +473,9 @@
     "movePageUpDown": "Μετακίνηση σελίδας πάνω/κάτω",
     "movePageLeftRight": "Μετακίνηση σελίδας αριστερά/δεξιά",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Αναζήτηση συντομεύσεων...",
+    "noShortcutResults": "Δεν βρέθηκαν αντίστοιχες συντομεύσεις"
   },
   "clearCanvasDialog": {
     "title": "Καθαρισμός καμβά"

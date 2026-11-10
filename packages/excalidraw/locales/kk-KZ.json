@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Пернелер тіркесімін іздеу...",
+    "noShortcutResults": "Сәйкес пернелер тіркесімі табылмады"
   },
   "clearCanvasDialog": {
     "title": ""

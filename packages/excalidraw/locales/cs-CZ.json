@@ -473,7 +473,9 @@
     "movePageUpDown": "Posunout stránku nahoru/dolů",
     "movePageLeftRight": "Přesunout stránku doleva/doprava",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Hledat zkratky...",
+    "noShortcutResults": "Nebyly nalezeny žádné odpovídající zkratky"
   },
   "clearCanvasDialog": {
     "title": "Vymazat plátno"

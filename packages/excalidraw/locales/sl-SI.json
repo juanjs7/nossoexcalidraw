@@ -473,7 +473,9 @@
     "movePageUpDown": "Premakni stran gor/dol",
     "movePageLeftRight": "Premakni stran levo/desno",
     "cropStart": "Obreži sliko",
-    "cropFinish": "Dokončaj obrezovanje slike"
+    "cropFinish": "Dokončaj obrezovanje slike",
+    "searchShortcuts": "Iskanje bližnjic...",
+    "noShortcutResults": "Ni najdenih ustreznih bližnjic"
   },
   "clearCanvasDialog": {
     "title": "Počisti platno"

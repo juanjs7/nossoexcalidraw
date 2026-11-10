@@ -473,7 +473,9 @@
     "movePageUpDown": "Pajudinti puslapį aukštyn/žemyn",
     "movePageLeftRight": "Pajudinti puslapį kairėn/dešinėn",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Ieškoti sparčiųjų klavišų...",
+    "noShortcutResults": "Atitinkančių sparčiųjų klavišų nerasta"
   },
   "clearCanvasDialog": {
     "title": "Išvalyti drobę"

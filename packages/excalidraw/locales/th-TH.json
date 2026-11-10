@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "ย้ายหน้าไปด้าน ซ้าย/ขวา",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "ค้นหาทางลัด...",
+    "noShortcutResults": "ไม่พบทางลัดที่ตรงกัน"
   },
   "clearCanvasDialog": {
     "title": "ล้างผืนผ้าใบ"

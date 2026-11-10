@@ -473,7 +473,9 @@
     "movePageUpDown": "Pindah halaman keatas/kebawah",
     "movePageLeftRight": "Pindah halaman kebawah/keatas",
     "cropStart": "Pangkas gambar",
-    "cropFinish": "Sudahi pangkas gambar"
+    "cropFinish": "Sudahi pangkas gambar",
+    "searchShortcuts": "Cari pintasan...",
+    "noShortcutResults": "Tidak ada pintasan yang cocok"
   },
   "clearCanvasDialog": {
     "title": "Hapus kanvas"

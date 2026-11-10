@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "Kép kivágása",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Billentyűparancsok keresése...",
+    "noShortcutResults": "Nincs egyező billentyűparancs"
   },
   "clearCanvasDialog": {
     "title": "Rajzvászon alaphelyzetbe"

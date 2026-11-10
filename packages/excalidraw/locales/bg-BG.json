@@ -473,7 +473,9 @@
     "movePageUpDown": "Премести страница нагоре/надолу",
     "movePageLeftRight": "Премести страница наляво/надясно",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Търсене на клавишни комбинации...",
+    "noShortcutResults": "Няма намерени съответстващи клавишни комбинации"
   },
   "clearCanvasDialog": {
     "title": "Изчисти платното"
