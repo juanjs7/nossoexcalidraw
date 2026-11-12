@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "শর্টকাট খুঁজুন...",
+    "noShortcutResults": "কোনো মিলে যাওয়া শর্টকাট পাওয়া যায়নি"
   },
   "clearCanvasDialog": {
     "title": ""

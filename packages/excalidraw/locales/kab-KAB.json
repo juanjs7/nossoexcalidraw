@@ -473,7 +473,9 @@
     "movePageUpDown": "Smutti asebter d asawen/akessar",
     "movePageLeftRight": "Smutti asebter s azelmaḍ/ayfus",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Nadi inegzumen...",
+    "noShortcutResults": "Ulac inegzumen yemṣadan"
   },
   "clearCanvasDialog": {
     "title": "Sfeḍ taɣzut n usuneɣ"

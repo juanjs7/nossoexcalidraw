@@ -473,7 +473,9 @@
     "movePageUpDown": "Posunúť stranu hore/dole",
     "movePageLeftRight": "Posunúť stranu doľava/doprava",
     "cropStart": "Orezať obrázok",
-    "cropFinish": "Dokončiť orezávanie obrázka"
+    "cropFinish": "Dokončiť orezávanie obrázka",
+    "searchShortcuts": "Hľadať klávesové skratky...",
+    "noShortcutResults": "Nenašli sa žiadne zodpovedajúce skratky"
   },
   "clearCanvasDialog": {
     "title": "Vyčistiť plátno"

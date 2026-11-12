@@ -473,7 +473,9 @@
     "movePageUpDown": "Desplaçar la pagina ennaut/enbàs",
     "movePageLeftRight": "Desplaçar la pagina a esquèrra/drecha",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "Cercar d'acorchis...",
+    "noShortcutResults": "Cap d'acorchi correspondent pas trobat"
   },
   "clearCanvasDialog": {
     "title": "Escafar canabàs"

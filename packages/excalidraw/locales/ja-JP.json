@@ -473,7 +473,9 @@
     "movePageUpDown": "ページを上下に移動",
     "movePageLeftRight": "ページを左右に移動",
     "cropStart": "画像を切り抜き",
-    "cropFinish": "画像の切り抜きを終了"
+    "cropFinish": "画像の切り抜きを終了",
+    "searchShortcuts": "ショートカットを検索...",
+    "noShortcutResults": "一致するショートカットが見つかりません"
   },
   "clearCanvasDialog": {
     "title": "キャンバスを消去"

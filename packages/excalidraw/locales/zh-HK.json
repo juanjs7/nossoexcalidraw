@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "搜尋快速鍵...",
+    "noShortcutResults": "找不到相符的快速鍵"
   },
   "clearCanvasDialog": {
     "title": ""

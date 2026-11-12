@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "ਸ਼ਾਰਟਕੱਟ ਖੋਜੋ...",
+    "noShortcutResults": "ਕੋਈ ਮੇਲ ਖਾਂਦਾ ਸ਼ਾਰਟਕੱਟ ਨਹੀਂ ਮਿਲਿਆ"
   },
   "clearCanvasDialog": {
     "title": "ਕੈਨਵਸ ਨੂੰ ਸਾਫ਼ ਕਰੋ"

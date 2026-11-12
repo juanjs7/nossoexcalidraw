@@ -473,7 +473,9 @@
     "movePageUpDown": "",
     "movePageLeftRight": "",
     "cropStart": "",
-    "cropFinish": ""
+    "cropFinish": "",
+    "searchShortcuts": "ဖြတ်လမ်းများ ရှာရန်...",
+    "noShortcutResults": "ကိုက်ညီသော ဖြတ်လမ်း မတွေ့ပါ"
   },
   "clearCanvasDialog": {
     "title": ""
